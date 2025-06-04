@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Fredoka+One&family=Montserrat&family=Poppins:ital,wght@0,400;1,800&family=Roboto:wght@900&family=Yesteryear&display=swap');
+
+
+
+.download-image{
+    width: 80px;
+    height: 80px;
+    margin-top: 2rem;
+   
+}
+#Textarea{
+    min-height: 25vh;
+}
+.list-group-item  {
+    background-image: url( '../images/background.svg' );
+    background-repeat: repeat space;
+    /* background-color:cover!important; */
+    margin-top: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 5px 5px -7px black;
+    color: #f5f6f8;
+    text-shadow: 0 1px 0 rgba(30, 29, 29, 0.4);
+    text-shadow: #0b0b0b 10px;
+    line-height: 1.7rem;
+    /* background-color: #0B8CD5; */
+   
+
+}
+.form-label{
+    font-family: 'Poppins', sans-serif;
+   
+  
+}
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #0b0b0b;
+    outline: none;
+    box-shadow:none;
+}
+
+.group-field{
+    background-color:cover;
+}
+
+.download-font{
+    margin-left: 5px;
+}
+

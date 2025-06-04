@@ -1,0 +1,20 @@
+
+
+ul{
+    display: flex;
+    list-style: none ;
+ 
+   
+}
+li {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  
+
+}
+.ul-links{
+    justify-content: center!important;
+  
+    
+}
+

@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.card {
+  box-shadow: 0 5px 6px -6px black;
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Make all cards fill the column height */
+}
+
+#projects {
+  background-image: none;
+}
+
+/* Card image styling */
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Optional: you can wrap this if you want to scope it further */
+.card-footer a {
+  color: black;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.card-footer a:hover {
+  color: rgb(254, 80, 5);
+  background-color: #f8f9fa;
+}
+
+.card-body {
+  flex: 1 1 auto; /* Allow body to grow and fill space */
+}
+
+.card-footer {
+  background-color: #f8f9fa;
+  padding: 0.75rem;
+  border-top: 1px solid #dee2e6;
+}
