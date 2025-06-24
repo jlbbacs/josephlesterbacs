@@ -14,6 +14,7 @@ import mern from "../images/mern.png";
 import Todoapp from "../images/todo-app.png";
 import Qregistration from "../images/bqr.png";
 import ErzaWeatherAppPic from "../images/erza-weather-app.png";
+import LechonPic from "../images/lechon.png";
 
 AOS.init();
 
@@ -112,6 +113,14 @@ const Project = () => {
       demo: "https://to-do-app-ochre-nu.vercel.app/",
       repo: "https://github.com/jlbbacs/to-do-app",
       aos: "fade-left",
+    },
+     {
+      img: LechonPic,
+      title: "Fredos Lechon",
+      desc: "Lechon Order Managment App",
+      demo: "https://fredos-lechon.vercel.app/",
+      repo: "https://github.com/jlbbacs/fredos-lechon",
+      aos: "fade-right",
     },
   ];
 
