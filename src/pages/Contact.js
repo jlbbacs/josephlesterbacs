@@ -103,9 +103,9 @@ const Contact = () => {
             </li>
           </ol>
 
-          <a href={resumefile} download>
+          <a href={resumefile} download className="d-inline-flex align-items-center mt-3">
             <img src={Download} alt="Download CV" className="download-image" />
-            <strong>Download CV</strong>
+            <strong className="download-font">Download CV</strong>
           </a>
         </div>
       </div>
