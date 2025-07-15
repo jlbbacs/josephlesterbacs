@@ -15,6 +15,7 @@ import Todoapp from "../images/todo-app.png";
 import Qregistration from "../images/bqr.png";
 import ErzaWeatherAppPic from "../images/erza-weather-app.png";
 import LechonPic from "../images/lechon.png";
+import Scanner2Text from '../images/scanner2text.png';
 
 AOS.init();
 
@@ -122,6 +123,14 @@ const Project = () => {
       repo: "https://github.com/jlbbacs/fredos-lechon",
       aos: "fade-right",
     },
+     {
+      img: Scanner2Text,
+      title: "Receipt Scanner to Text ",
+      desc: "Scan receipt and convert to text",
+      demo: "https://receipt-scanner-2text.vercel.app/",
+      repo: "https://github.com/jlbbacs/receipt-scanner-2text",
+      aos: "fade-left",
+    }
   ];
 
   return (
