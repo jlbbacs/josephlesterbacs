@@ -9,6 +9,7 @@ import {
 import './App.css';
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
+import Certificates from "./pages/Certificates";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Project from "./pages/Project";
@@ -28,6 +29,7 @@ const App = ()=> {
         <Route path="/about" element={<About/>} />
         <Route path="/contact" element={<Contact/>} />
         <Route path="/project" element={<Project/>} />
+        <Route path="/certificates" element={<Certificates/>} />
 
     </Routes>
     <Links/>
