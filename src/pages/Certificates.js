@@ -49,8 +49,8 @@ const Certificates = () => {
       img: CYBERSECURITY,
       title: "Cyber Security",
     //   desc: "Website for pet training manners and adoption.",
-      demo: "https://group-3-nickel-capstone.vercel.app/",
-      repo: "https://github.com/LightLotus/group-3-nickel-capstone",
+    //   demo: "https://group-3-nickel-capstone.vercel.app/",
+    //   repo: "https://github.com/LightLotus/group-3-nickel-capstone",
       aos: "fade-left",
     },
     {
