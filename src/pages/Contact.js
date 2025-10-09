@@ -98,7 +98,7 @@ const Contact = () => {
             <li className="list-group-item d-flex justify-content-between align-items-start border-0">
               <div className="ms-2 me-auto">
                 <div className="fw-bold">Contact number</div>
-                0961-4984-118
+                0936-2760-758
               </div>
             </li>
           </ol>
