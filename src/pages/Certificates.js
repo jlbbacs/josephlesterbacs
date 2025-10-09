@@ -10,6 +10,7 @@ import KODEGO from "../images/kodego.png";
 import ECOMMERCE from "../images/e-commerce.png";
 import LINUXSQL  from "../images/linux & sql.png";
 import NETWORKSECURITY  from "../images/netfowk-security.png";
+import SERURITYMANAGMENTRISK  from "../images/securty management risk.png";
 
 AOS.init();
 
@@ -60,6 +61,11 @@ const Certificates = () => {
       img: NETWORKSECURITY,
       title: "Networking",
       aos: "fade-right",
+    },
+     {
+      img: SERURITYMANAGMENTRISK,
+      title: "Seurity risk Managment",
+      aos: "fade-left",
     },
   ];
 
