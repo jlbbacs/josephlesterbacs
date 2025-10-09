@@ -64,7 +64,7 @@ const Certificates = () => {
     },
      {
       img: SERURITYMANAGMENTRISK,
-      title: "Seurity risk Managment",
+      title: "Security risk Managment",
       aos: "fade-left",
     },
   ];
