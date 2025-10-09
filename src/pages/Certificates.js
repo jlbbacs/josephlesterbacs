@@ -7,6 +7,9 @@ import "aos/dist/aos.css";
 import AI from "../images/Ai-Essentials.png";
 import CYBERSECURITY from "../images/cyber security.png";
 import KODEGO from "../images/kodego.png";
+import ECOMMERCE from "../images/e-commerce.png";
+import LINUXSQL  from "../images/linux & sql.png";
+import NETWORKSECURITY  from "../images/netfowk-security.png";
 
 AOS.init();
 
@@ -36,11 +39,26 @@ const Certificates = () => {
     {
       img: CYBERSECURITY,
       title: "Cyber Security",
+      aos: "fade-right",
+    },
+    {
+      img: ECOMMERCE,
+      title: "Foundation of Digital Marketing and E-commerce",
       aos: "fade-left",
     },
     {
       img: KODEGO,
       title: "FullStack Development",
+      aos: "fade-right",
+    },
+    {
+      img: LINUXSQL,
+      title: "Tools of the trade:Linux and SQL",
+      aos: "fade-left",
+    },
+     {
+      img: NETWORKSECURITY,
+      title: "Networking",
       aos: "fade-right",
     },
   ];
