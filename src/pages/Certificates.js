@@ -11,6 +11,7 @@ import ECOMMERCE from "../images/e-commerce.png";
 import LINUXSQL  from "../images/linux & sql.png";
 import NETWORKSECURITY  from "../images/netfowk-security.png";
 import SERURITYMANAGMENTRISK  from "../images/securty management risk.png";
+import DIGITALMARKETING from "../images/digital marketing.png";
 
 AOS.init();
 
@@ -66,6 +67,11 @@ const Certificates = () => {
       img: SERURITYMANAGMENTRISK,
       title: "Security risk Managment",
       aos: "fade-left",
+    },
+    {
+      img: DIGITALMARKETING,
+      title: "Digital Marketing",
+      aos: "fade-right",
     },
   ];
 
