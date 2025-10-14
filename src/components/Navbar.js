@@ -61,7 +61,7 @@ function Navbar() {
             <Link className="nav-link" to="/project">
               Project
             </Link><Link className="nav-link" to="/certificates">
-              Certificates
+              Certifications
             </Link>
           </div>
         </div>
