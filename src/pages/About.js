@@ -180,7 +180,7 @@ const About = () => {
                 </li>
                  <li
                   className="list"
-                  id="fig"
+                  id="ms"
                   data-bs-toggle="tooltip"
                   data-bs-placement="top"
                   title="MSWORD"
@@ -189,7 +189,7 @@ const About = () => {
                 </li>
                  <li
                   className="list"
-                  id="fig"
+                  id="ms"
                   data-bs-toggle="tooltip"
                   data-bs-placement="top"
                   title="EXCEL"
@@ -198,7 +198,7 @@ const About = () => {
                 </li>
                  <li
                   className="list"
-                  id="fig"
+                  id="ms"
                   data-bs-toggle="tooltip"
                   data-bs-placement="top"
                   title="POWER POINT"
