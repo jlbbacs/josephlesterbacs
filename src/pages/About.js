@@ -10,6 +10,9 @@ import "aos/dist/aos.css";
 import Tailwind from "../images/tailwind-css.svg";
 import Figma from "../images/icons8-figma.gif";
 import Ionic from "../images/ionic-icon-svgrepo-com.svg";
+import PPT from "../images/ppt.png";
+import MSWORD from "../images/word.png";
+import EXCEL from "../images/excel.png";
 
 AOS.init();
 
@@ -174,6 +177,33 @@ const About = () => {
                   title="IONIC"
                 >
                   <img src={Ionic} className="img-fluid" alt="figmalogo" />
+                </li>
+                 <li
+                  className="list"
+                  id="fig"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  title="MSWORD"
+                >
+                  <img src={MSWORD} className="img-fluid" alt="figmalogo" />
+                </li>
+                 <li
+                  className="list"
+                  id="fig"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  title="EXCEL"
+                >
+                  <img src={EXCEL} className="img-fluid" alt="figmalogo" />
+                </li>
+                 <li
+                  className="list"
+                  id="fig"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  title="POWER POINT"
+                >
+                  <img src={PPT} className="img-fluid" alt="figmalogo" />
                 </li>
               </ul>
 
