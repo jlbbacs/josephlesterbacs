@@ -12,6 +12,7 @@ import LINUXSQL  from "../images/linux & sql.png";
 import NETWORKSECURITY  from "../images/netfowk-security.png";
 import SERURITYMANAGMENTRISK  from "../images/securty management risk.png";
 import DIGITALMARKETING from "../images/digital marketing.png";
+import FOUNDATIONSOFDATA from "../images/foundstions of data.png";
 
 AOS.init();
 
@@ -73,6 +74,11 @@ const Certificates = () => {
       title: "Digital Marketing",
       aos: "fade-right",
     },
+     {
+      img: FOUNDATIONSOFDATA,
+      title: "Foundations of Data",
+      aos: "fade-left",
+    }
   ];
 
   return (
