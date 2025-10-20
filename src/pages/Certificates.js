@@ -13,6 +13,8 @@ import NETWORKSECURITY  from "../images/netfowk-security.png";
 import SERURITYMANAGMENTRISK  from "../images/securty management risk.png";
 import DIGITALMARKETING from "../images/digital marketing.png";
 import FOUNDATIONSOFDATA from "../images/foundstions of data.png";
+import FOUNDATIONOFUXDESIGN from "../images/foundation of ux design.png";
+import FOUNDATIONsOFCYBERSECURITY from "../images/foundations of cyber security.png";
 
 AOS.init();
 
@@ -77,6 +79,16 @@ const Certificates = () => {
      {
       img: FOUNDATIONSOFDATA,
       title: "Foundations of Data",
+      aos: "fade-left",
+    },
+     {
+      img: FOUNDATIONOFUXDESIGN,
+      title: "Foundations of UX Design",
+      aos: "fade-right",
+    },
+    {
+      img: FOUNDATIONsOFCYBERSECURITY,
+      title: "Foundations of Cyber Security",
       aos: "fade-left",
     }
   ];
