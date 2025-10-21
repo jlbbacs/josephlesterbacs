@@ -51,27 +51,23 @@
 .about-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: center; /* center horizontally */
   gap: 20px;
   padding: 0;
   margin-top: 20px;
   list-style: none;
-  text-align: center;
 }
 
 /* Each skill box */
 .about-list .list {
   width: 80px;
-  height: 100px;
+  height: 80px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: column; /* icon above, text below */
   align-items: center;
-  padding: 8px;
+  justify-content: center;
   border-radius: 10px;
   border: 1px solid rgba(124,123,122,0.3);
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
-  font-family: 'Bebas Neue';
   cursor: pointer;
   transition: transform 0.3s, box-shadow 0.3s, background-color 0.5s;
 }
@@ -86,7 +82,7 @@
 /* FontAwesome icons */
 .about-list .list i {
   font-size: 2rem;
-  margin-bottom: 5px;
+  margin-bottom: 6px;
 }
 
 /* Image icons */
@@ -94,13 +90,13 @@
   width: 2rem;
   height: 2rem;
   object-fit: contain;
-  margin-bottom: 5px;
+  margin-bottom: 6px;
 }
 
-/* Text under each icon */
-.about-list .list span {
+/* Text below the square box */
+.skill-text {
   font-size: 0.75rem;
-  color: #fff;
-  margin-top: 4px;
-  line-height: 1.2rem;
+  color: #2f2b2b;
+  font-weight: 700;
+  text-align: center;
 }
