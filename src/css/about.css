@@ -1,228 +1,106 @@
-@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Fredoka+One&family=Montserrat&family=Poppins:ital,wght@0,400;1,800&family=Roboto:wght@900&family=Yesteryear&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Monoton&family=Montserrat&family=Poppins:ital,wght@0,400;1,800&family=Raleway:wght@500&family=Roboto:wght@900&family=Rubik+Glitch&family=Yesteryear&display=swap');
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Poppins&display=swap');
 
-
-
-.card-title{
-    text-align: center;
-}
-
-
-.card-text-about{
-    font-family: 'Montserrat', sans-serif;
-    line-height: 1.8rem;
-    font-weight: normal;
-
-    
-  
-}
-
-.aboutname{
-    color:white;
-    text-shadow: 0px 3px 2px rgba(100, 100, 100, 3); 
-    background-color:#0B8CD5;
-    border-radius: 5px 20px 5px;
-    padding: 0.5rem;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 2em;
-    letter-spacing: 0.2rem;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;    
-   
-}
-.skills-about{
-    background-color:#0B8CD5;
-    border-radius: 5px 20px 5px;
-    padding: 0.5rem; 
-    font-family: 'Bebas Neue', cursive;
-    color:white;
-    text-shadow: 0px 3px 2px rgba(100, 100, 100, 3); 
-    font-size: 2em;
-    letter-spacing: 0.2rem;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-
-}
-
-
-
-
-.about-list{
-    margin-top: 1rem;
-    font-family: 'Poppins', sans-serif;
-    display: flex;
-    flex-wrap: wrap;
-
-
-}
-.img-mayon{
-    border-radius: 34% 66% 55% 45% / 36% 57% 43% 64%  ;
-    box-shadow: 0 9px 6px -6px black;
-}
-
-
-.list{
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-    list-style: none;
-    background-color: rgb(9, 134, 251);
-    padding: 10px;
-    border-radius: 3px;
-    cursor: pointer;
-    border: 1px solid rgb(124, 123, 122);
-    color: rgb(0, 5, 5);
-    font-size: larger;
-    font-family: 'Bebas Neue';
-    letter-spacing: 0.1rem;
-    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
-
-   
-}
-.list:hover{
-    color: rgb(168, 198, 233);
-    background-color: rgb(22, 77, 154);
-    transition: 1s;
-    border: 2px solid white;
-    font-variation-settings: "wght" 100, "ital" 0;
-    box-shadow: none;
-    border-radius: 5px;
-}
-
-
-.fa-brands{
- margin-top: 1.5rem;
-
- 
-}
-
-#bo{
-    background-color: blueviolet;
-    width:70px;
-    height:70px;
-  
-}
-#ht{
-    background-color: #0B8CD5;
-    width:70px;
-    height:70px;
-    
-}
-#cs{
-    background-color: rgb(255, 94, 0);
-    width:70px;
-    height:70px;
-  
-   
-}
-#ja{
-    background-color: yellow;
-    width:70px;
-    height:70px;
-  
-}
-#gi{
-    background-color: #969798;
-    width:70px;
-    height:70px;
-
-}
-#py{
-    background-color: #ffd343;
-}
-#my{
-    background-color: teal;
-    width:70px;
-    height:70px; 
-    font-size: 22px;
-    letter-spacing: 0.5px;
-    
-   
-    
- 
-}
-#re{
-    background-color: lightskyblue;
-    width:70px;
-    height:70px;
-   
-}
-
-#ph{
-    background-color: #807091;
-    width:70px;
-    height:70px;
-  
-   
-    
-}
-
-
-
-
-#photo{
-    background-color:  rgb(252, 252, 255);
-    width:70px;
-    height:70px;
-}
-#fil{
-    background-color: aquamarine;
-    width:70px;
-    height:70px;
-}
-
-#tail{
-    background-color: rgb(252, 255, 252);
-    width:70px;
-    height:70px;
-}
-#fig{
-    background-color: rgb(252, 255, 252);
-    width:70px;
-    height:70px;
-
-}
-
-.about-list{
-    padding-top: 1rem;
-   
-}
-ul.about-list{
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-
-
-#ms {
-  animation: bounce-fig 2s ease-in-out infinite;
-  border-radius: 50%;
-  box-shadow: 0 8px 12px rgba(0,0,0,0.2);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-   width:70px;
-    height:70px;
-}
-
-@keyframes bounce-fig {
-  0%, 100% { transform: translateY(0); }
-  20% { transform: translateY(-5px); }
-  40% { transform: translateY(-5px); }
-  60% { transform: translateY(-5px); }
-  80% { transform: translateY(-5px); }
-}
-
-#ms:hover {
-  transform: scale(1.3);
-  box-shadow: 0 15px 20px rgba(0,0,0,0.4);
-}
-.about-list .list {
+/* Card title */
+.card-title {
   text-align: center;
-  width: 80px;
-  background-color: #fff;
-  padding: 10px;
-  border-radius: 10px;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
+/* About text */
+.card-text-about {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.8rem;
+  font-weight: normal;
+}
+
+/* Name styling */
+.aboutname {
+  color: white;
+  text-shadow: 0px 3px 2px rgba(100, 100, 100, 0.3); 
+  background-color:#0B8CD5;
+  border-radius: 5px 20px 5px;
+  padding: 0.5rem;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2em;
+  letter-spacing: 0.2rem;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;    
+}
+
+/* Skills header */
+.skills-about {
+  background-color:#0B8CD5;
+  border-radius: 5px 20px 5px;
+  padding: 0.5rem; 
+  font-family: 'Bebas Neue', cursive;
+  color:white;
+  text-shadow: 0px 3px 2px rgba(100, 100, 100, 0.3); 
+  font-size: 2em;
+  letter-spacing: 0.2rem;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+/* Image of Mayon */
+.img-mayon {
+  border-radius: 34% 66% 55% 45% / 36% 57% 43% 64%;
+  box-shadow: 0 9px 6px -6px black;
+  width: 100%;
+  height: auto;
+}
+
+/* Skills container */
+.about-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+  margin-top: 20px;
+  list-style: none;
+  text-align: center;
+}
+
+/* Each skill box */
+.about-list .list {
+  width: 80px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  border-radius: 10px;
+  border: 1px solid rgba(124,123,122,0.3);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+  font-family: 'Bebas Neue';
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.5s;
+}
+
+/* Hover effect */
 .about-list .list:hover {
-  transform: scale(1.05);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transform: scale(1.2);
+  box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+  border: 2px solid white;
+}
+
+/* FontAwesome icons */
+.about-list .list i {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+/* Image icons */
+.about-list .list img {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  margin-bottom: 5px;
+}
+
+/* Text under each icon */
+.about-list .list span {
+  font-size: 0.75rem;
+  color: #fff;
+  margin-top: 4px;
+  line-height: 1.2rem;
 }
